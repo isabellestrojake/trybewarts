@@ -9,8 +9,19 @@ document.querySelector('#login').addEventListener('click', () => {
   }
 });
 
-window.onload(botaoEnviar) 
+//Desabilita/habilita botão Enviar
 
-function botaoEnviar() {
-  
-}
+const input = document.getElementById('submit-btn')
+input.disabled = true
+
+const checkbox = document.getElementById('agreement')
+checkbox.addEventListener("input", desabilitaBotao)
+
+function desabilitaBotao() {
+  if (checkbox.checked == true) {
+    input.disabled = false;
+  } else {
+    input.disabled = true;
+  }
+};
+
