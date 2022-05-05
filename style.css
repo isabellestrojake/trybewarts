@@ -49,3 +49,12 @@ main {
   flex-wrap: wrap;
   width: 369px;
 }
+<<<<<<< HEAD
+=======
+
+#form-segunda-parte {
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 150px;
+}
+>>>>>>> df4eb7c2cfd7c1ee9611ee64f936165854c69c7a
