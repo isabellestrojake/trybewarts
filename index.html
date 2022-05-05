@@ -34,15 +34,16 @@
           <option value="Pytherina" id="pytherina-house">Pytherina</option>
         </select>
 
-        </div>
-        <div id="form-segunda-parte">
+      </div>
+      <div id="form-segunda-parte">
         <label id="label-family">Qual sua família?</label>
         <br>
         <label for="family-frontend"><input type="radio" name="family" id="family-frontend" value="Frontend">Frontend
         </label><br>
         <label for="family-backend"><input type="radio" name="family" id="family-backend" value="Backend">Backend
         </label><br>
-        <label for="family-fullstack"><input type="radio" name="family" id="family-fullstack" value="FullStack">FullStack
+        <label for="family-fullstack"><input type="radio" name="family" id="family-fullstack"
+            value="FullStack">FullStack
         </label>
         </div>
     <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
@@ -67,9 +68,18 @@
     <input type="radio" name="rate" value="9">9
     <input type="radio" name="rate" value="10">10
   </div>
+  <label class="textarea" for="textarea">Deixe seu comentário:
+    <br>
+    <textarea name="textarea" id="textarea" cols="40" rows="10" maxlength="500"
+      placeholder="Escreva uma mensagem em até 500 caracteres."></textarea>
+  </label>
+  <label id="label-infos"  for="agreement">Você concorda com o uso das informações acima?
+    <input type="checkbox" name="agreement" id="agreement">
+  </label>
   <div>
     <button id="submit-btn" type="submit"><span>Enviar</span></button>
   </div>
+      </div>
     </form>
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Logo Trybewarts">
   </main>
