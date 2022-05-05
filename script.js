@@ -25,3 +25,21 @@ function desabilitaBotao() {
   }
 };
 
+//Mostra as informações ao submeter o formulário
+const primeiroNome = document.querySelector('#input-name')
+const sobrenome = document.querySelector('#input-lastname')
+const emailCadastrado = document.querySelector('#email')
+const casaEscolhida = document.querySelector('#house')
+const familiaEscolhida = document.querySelectorAll('#label-family')
+const materiaEscolhida = document.querySelectorAll('#label-family')
+
+
+const main = document.querySelector('#main')
+input.addEventListener('click', mostraInformacoes)
+
+function mostraInformacoes() {
+  const nomeCompleto = document.createElement('p')
+  nomeCompleto.innerText = 'Nome: ' + primeiroNome.value + ' ' + sobrenome.value
+  primeiroNome.insertBefore(nomeCompleto, sobrenome)
+}
+
