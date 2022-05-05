@@ -43,3 +43,9 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+#form-primeira-parte {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 369px;
+}
