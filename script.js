@@ -8,3 +8,9 @@ document.querySelector('#login').addEventListener('click', () => {
     alert('Email ou senha inválidos.');
   }
 });
+
+window.onload(botaoEnviar) 
+
+function botaoEnviar() {
+  
+}
