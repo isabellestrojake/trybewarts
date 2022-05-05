@@ -9,8 +9,12 @@ document.querySelector('#login').addEventListener('click', () => {
   }
 });
 
-window.onload(botaoEnviar) 
+const desc = document.querySelector('#textarea');
 
-function botaoEnviar() {
-  
+function quantidadeCaracteres() {
+  const quant = document.querySelector('#textarea').value;
+
+  document.getElementById('counter').innerText = 500 - quant.length;
 }
+desc.addEventListener('input', quantidadeCaracteres);
+// A função do counter foi criada com base em: https://medium.com/walternascimentobarroso-pt/contador-de-caracteres-com-html-e-js-648ee612d7be//
