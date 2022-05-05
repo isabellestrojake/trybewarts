@@ -27,3 +27,9 @@ main {
   flex-wrap: wrap;
   width: 369px;
 }
+
+#form-segunda-parte {
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 150px;
+}
