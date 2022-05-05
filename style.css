@@ -26,7 +26,6 @@
 
 .trybewarts-login {
   display: flex;
-  right: 0px;
   width: 40%;
 }
 
@@ -45,14 +44,11 @@ main {
 }
 
 #form-primeira-parte {
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   width: 369px;
 }
 
 #form-segunda-parte {
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   width: 150px;
 }
-
