@@ -87,11 +87,11 @@ function substituiFormulario() {
   const novaDiv = document.createElement('div');
   form.appendChild(novaDiv);
   const nomeCompleto = document.createElement('p');
-  nomeCompleto.innerHTML = `'Nome: ' + ${primeiroNome.value} + ' ' + ${sobrenome.value} + '<br>'
-  + 'Email: ' + ${emailCadastrado.value} + '<br>' + 'Casa: ' + ${casaEscolhida.value} + '<br>'
-  + 'Família: ' + ${valorDoInputRadio()} + '<br>' + 'Matérias: ' + ${valorDoInputCheckbox()}
-  + '<br>' + 'Avaliação: ' + ${valorRadioAvaliacao()} + '<br>' + 'Observações: '
-  + ${observacoes.value}`;
+  nomeCompleto.innerHTML = `Nome:  ${primeiroNome.value} ${sobrenome.value} <br>
+  Email: ${emailCadastrado.value} <br> Casa: ${casaEscolhida.value} <br>
+  Família: ${valorDoInputRadio()} <br> Matérias: ${valorDoInputCheckbox()}
+  <br> Avaliação: ${valorRadioAvaliacao()} <br> Observações:
+  ${observacoes.value}`;
   novaDiv.appendChild(nomeCompleto);
 }
 botaoEnviar.addEventListener('click', substituiFormulario);
