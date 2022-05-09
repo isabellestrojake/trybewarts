@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Trybewarts</title>
 </head>
@@ -12,24 +13,26 @@
     <img src="/images/trybewarts-header-logo.svg" class="trybewarts-header-logo" alt="Trybewarst Logo">
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form class="trybewarts-login">
-      <input name="email" id="email" type="email" placeholder="Email">
-      <input name="password" type="password" id="senha" placeholder="Senha">
-      <button id="login" type="submit"><span>Entrar</span></button>
+      <input name="email" class="input is-info" id="email" type="email" placeholder="Email">
+      <input name="password" type="password" class="input is-info" id="senha" placeholder="Senha">
+      <button class="button is-success is-light is-small" id="login" type="submit"><span>Entrar</span></button>
     </form>
   </header>
   <main id="main">
     <form id="evaluation-form">
       <div id="form-primeira-parte">
-        <input type="text" name="name" id="input-name" placeholder="Nome" required>
-        <input type="text" name="lastname" id="input-lastname" placeholder="Sobrenome" required>
-        <input type="email" name="email" id="input-email" placeholder="Email" required>
+        <input type="text" name="name" class="input is-success is-small" id="input-name" placeholder="Nome" required>
+        <input type="text" name="lastname" class="input is-success is-small" id="input-lastname" placeholder="Sobrenome" required>
+        <input type="email" name="email" class="input is-success is-small" id="input-email" placeholder="Email" required>
         <label for="house">Casa:</label>
+        <div class="select is-success is-rounded is-small">
         <select name="house" id="house">
           <option value="Gitnória" id="gitnoria-house">Gitnória</option>
           <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
           <option value="Corvinode" id="corvinode-house">Corvinode</option>
           <option value="Pytherina" id="pytherina-house">Pytherina</option>
         </select>
+      </div>
       </div>
       <div id="form-segunda-parte">
         <label id="label-family">Qual sua família?</label>
@@ -63,19 +66,19 @@
         <input type="radio" name="rate" value="9" class="avaliacao">9
         <input type="radio" name="rate" value="10" class="avaliacao">10
       </div>
-      <label class="textarea" for="textarea">Deixe seu comentário:
+      <label for="textarea">Deixe seu comentário:
         <br>
-        <textarea name="textarea" id="textarea" cols="40" rows="10" maxlength="500"
+        <textarea name="textarea" class="textarea is-success" id="textarea" cols="40" rows="10" maxlength="500"
           placeholder="Escreva uma mensagem em até 500 caracteres."></textarea>
       </label>
-      <div>
+      <div id="counterDiv">
         <span id="counter">500</span> caracteres restantes.
       </div>
       <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?
         <input type="checkbox" name="agreement" id="agreement">
       </label>
       <div>
-        <button id="submit-btn" type="submit"><span>Enviar</span></button>
+        <button class="button is-success" id="submit-btn" type="submit"><span>Enviar</span></button>
       </div>
       </div>
       </div>
@@ -86,5 +89,6 @@
     Direitos reservados à Trybewarts©
   </footer>
   <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
