@@ -35,6 +35,7 @@
 
 main {
   display: flex;
+  padding: 30px;
 }
 
 #evaluation-form {
@@ -48,8 +49,23 @@ main {
 }
 
 #form-primeira-parte {
+  display: flex;
   flex-flow: row wrap;
-  width: 300px;
+  width: 700px;
+}
+
+#input-name {
+  width: 250px;
+  margin-bottom: 5px;
+}
+
+#input-lastname {
+  width: 250px;
+  margin-bottom: 5px;
+}
+
+#input-email {
+  width: 250px;
 }
 
 #form-segunda-parte {
@@ -57,7 +73,7 @@ main {
   width: 150px;
 }
 
-li{
+li {
   list-style: none;
 }
 
@@ -75,10 +91,14 @@ footer {
   margin-top: 10px;
 }
 
-input[type='radio'] {
+input [ type = 'radio' ] {
   accent-color: rgb(50, 167, 145);
 }
 
-input[type='checkbox'] {
+input [ type = 'checkbox' ] {
   accent-color: rgb(50, 167, 145);
+}
+
+hr {
+  background-color: rgb(71, 139, 228);
 }
