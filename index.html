@@ -21,6 +21,7 @@
   <main id="main">
     <form id="evaluation-form">
       <div id="form-primeira-parte">
+        <div id="nome-sobrenome-email-casa">
         <input type="text" name="name" class="input is-success is-small" id="input-name" placeholder="Nome" required>
         <input type="text" name="lastname" class="input is-success is-small" id="input-lastname" placeholder="Sobrenome" required>
         <input type="email" name="email" class="input is-success is-small" id="input-email" placeholder="Email" required>
@@ -34,6 +35,8 @@
         </select>
       </div>
       </div>
+      </div>
+      <hr>
       <div id="form-segunda-parte">
         <label id="label-family">Qual sua família?</label>
         <br>
@@ -44,6 +47,7 @@
         <label for="family-fullstack"><input type="radio" name="family" id="family-fullstack" value="FullStack">FullStack
         </label>
       </div>
+      <hr>
       <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
       <ul>
         <li><input type="checkbox" value="HoFs" class="subject">HoFs</li>
@@ -53,6 +57,7 @@
         <li><input type="checkbox" value="SQL" class="subject">SQL</li>
         <li><input type="checkbox" value="Python" class="subject">Python</li>
       </ul>
+      <hr>
       <div id="rate">
         <label id="label-rate">Como você avalia a Trybewarts?</label>
         <input type="radio" name="rate" value="1" class="avaliacao">1
@@ -68,7 +73,7 @@
       </div>
       <label for="textarea">Deixe seu comentário:
         <br>
-        <textarea name="textarea" class="textarea is-success" id="textarea" cols="40" rows="10" maxlength="500"
+        <textarea name="textarea" id="textarea" cols="40" rows="10" maxlength="500"
           placeholder="Escreva uma mensagem em até 500 caracteres."></textarea>
       </label>
       <div id="counterDiv">
