@@ -1,13 +1,48 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+# Trybewarts
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Uma pesquisa relacionada à Trybewarts.
+
+
+## Funcionalidades
+
+- Forms
+- Inputs
+- Options
+- Labels
+- Textareas
+- Buttons
+
+
+## Desenvolvimento
+
+Foi programado através de `HTML` `CSS` `Javascript`
+
+Este projeto foi codado em dupla.
+
+
+## Instalação
+
+Faça o `git clone`
+
+```bash
+  git clone git@github.com:isabellestrojake/trybewarts.git
+  cd trybewarts
+```
+
+Instale as dependências com npm
+
+```bash
+  npm install
+```
+
+
+## Autores
+
+- Dev [Isabelle Strojake](https://github.com/isabellestrojake)
+- Dev [Thaísy Morais](https://github.com/thaimorais)
+- Orientação [Trybe](https://www.betrybe.com/)
+
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isabellestrojake/)
+
